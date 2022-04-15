@@ -1,0 +1,213 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ALK Rex Bold", sans-serif;
+  list-style-type: none;
+}
+
+/* header */
+
+.logo img {
+  width: 100px;
+  height: 95px;
+  border-radius: 50px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin: 15px;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+body {
+  background: #6a7796;
+}
+
+/* registracion form */
+.registracion {
+  width: 443px;
+  height: 350px;
+  border: 1px solid rgb(107, 103, 103);
+  margin: auto;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.registracion p {
+  color: #6a7796;
+}
+
+.input_text h1 {
+  color: #1c1e21;
+}
+
+.input_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registracion .input_text input {
+  width: 190px;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin: 5px;
+}
+
+.input_pass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+}
+
+.input_pass input {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+.sex_gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.btn a {
+  text-decoration: none;
+  margin: 10px;
+  border: solid #1c1e21 1px;
+  background-color: antiquewhite;
+}
+
+/* auth-form-conteiner */
+.auth-form-conteiner {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 15px;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(236, 64, 99, 1) 100%);
+
+  margin-top: 15px;
+}
+
+.auth-form-conteiner .text-input-label {
+  display: block;
+  margin: 5px;
+}
+
+.auth-form-conteiner .text-input {
+  height: 35px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border-color: crimson;
+}
+
+.form-grup {
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  height: 35px;
+  background-color: aqua;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-pasword {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu1 {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+/* resett */
+
+.reset {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 15px;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(236, 64, 99, 1) 100%);
+  margin-top: 15px;
+  display: flex;
+ flex-direction: column;
+}
+
+
+.input1 input{
+  width: 100%;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+}
+
+.btn_reset input {
+  width:100%;
+  height: 30px;
+  margin: 3px;
+}
+
+/* responsiv */
+
