@@ -6,10 +6,16 @@
   box-sizing: border-box;
   font-family: "ALK Rex Bold", sans-serif;
   list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* header */
-
 .logo img {
   width: 100px;
   height: 95px;
@@ -207,6 +213,16 @@ body {
   width:100%;
   height: 30px;
   margin: 3px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: #206db0;
+ width: 100%;
+ height: 60px;
+ margin-top: auto;
 }
 
 /* responsiv */
